@@ -6,7 +6,7 @@ import csv
 import os
 import sys
 
-#   import Adafruit Blinka
+# import Adafruit Blinka
 import board
 import busio
 
@@ -34,7 +34,7 @@ vocb = int(sgp30.TVOC)
 reset_pin = None
 pm25 = PM25_I2C(i2c, reset_pin)
 
-#    create Light sensor (TSL2591)
+# create Light sensor (TSL2591)
 lightSensor = adafruit_tsl2591.TSL2591(i2c)
 
 # create PHT object (MS8607)
